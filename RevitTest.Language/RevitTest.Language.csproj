@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <IsTestProject>true</IsTestProject>
+    <TargetFramework>net48</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
+    <Configurations>Debug;Release-en;Release-pt;Release-es;Release-ru;Release-fr;Release-it;Release-ja;Release-eng;Release-de;Release-ko;Release-pl;Release-zh;Release-zht;Release-cs</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="ricaun.RevitTest.TestAdapter" Version="*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Revit_All_Main_Versions_API_x64" Version="2021.*" IncludeAssets="build; compile" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>

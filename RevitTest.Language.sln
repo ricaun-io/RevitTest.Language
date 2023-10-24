@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RevitTest.Language", "RevitTest.Language\RevitTest.Language.csproj", "{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Build", "Build\Build.csproj", "{C413B60A-3426-4941-8028-4E8E8933FEDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{F76A1267-E991-4644-B6B1-61CDA5D60D13}"
+	ProjectSection(SolutionItems) = preProject
+		CHANGELOG.md = CHANGELOG.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Release-cs|Any CPU = Release-cs|Any CPU
+		Release-de|Any CPU = Release-de|Any CPU
+		Release-en|Any CPU = Release-en|Any CPU
+		Release-eng|Any CPU = Release-eng|Any CPU
+		Release-es|Any CPU = Release-es|Any CPU
+		Release-fr|Any CPU = Release-fr|Any CPU
+		Release-it|Any CPU = Release-it|Any CPU
+		Release-ja|Any CPU = Release-ja|Any CPU
+		Release-ko|Any CPU = Release-ko|Any CPU
+		Release-pl|Any CPU = Release-pl|Any CPU
+		Release-pt|Any CPU = Release-pt|Any CPU
+		Release-ru|Any CPU = Release-ru|Any CPU
+		Release-zh|Any CPU = Release-zh|Any CPU
+		Release-zht|Any CPU = Release-zht|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release|Any CPU.ActiveCfg = Release-en|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release|Any CPU.Build.0 = Release-en|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release-cs|Any CPU.ActiveCfg = Release-cs|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release-cs|Any CPU.Build.0 = Release-cs|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release-de|Any CPU.ActiveCfg = Release-de|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release-de|Any CPU.Build.0 = Release-de|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release-en|Any CPU.ActiveCfg = Release-en|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release-en|Any CPU.Build.0 = Release-en|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release-eng|Any CPU.ActiveCfg = Release-eng|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release-eng|Any CPU.Build.0 = Release-eng|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release-es|Any CPU.ActiveCfg = Release-es|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release-es|Any CPU.Build.0 = Release-es|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release-fr|Any CPU.ActiveCfg = Release-fr|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release-fr|Any CPU.Build.0 = Release-fr|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release-it|Any CPU.ActiveCfg = Release-it|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release-it|Any CPU.Build.0 = Release-it|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release-ja|Any CPU.ActiveCfg = Release-ja|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release-ja|Any CPU.Build.0 = Release-ja|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release-ko|Any CPU.ActiveCfg = Release-ko|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release-ko|Any CPU.Build.0 = Release-ko|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release-pl|Any CPU.ActiveCfg = Release-pl|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release-pl|Any CPU.Build.0 = Release-pl|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release-pt|Any CPU.ActiveCfg = Release-pt|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release-pt|Any CPU.Build.0 = Release-pt|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release-ru|Any CPU.ActiveCfg = Release-ru|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release-ru|Any CPU.Build.0 = Release-ru|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release-zh|Any CPU.ActiveCfg = Release-zh|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release-zh|Any CPU.Build.0 = Release-zh|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release-zht|Any CPU.ActiveCfg = Release-zht|Any CPU
+		{6FFD80EB-96A8-4360-B11A-48DADAA2C46A}.Release-zht|Any CPU.Build.0 = Release-zht|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Release-cs|Any CPU.ActiveCfg = Release|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Release-cs|Any CPU.Build.0 = Release|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Release-de|Any CPU.ActiveCfg = Release|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Release-de|Any CPU.Build.0 = Release|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Release-en|Any CPU.ActiveCfg = Release|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Release-en|Any CPU.Build.0 = Release|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Release-eng|Any CPU.ActiveCfg = Release|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Release-eng|Any CPU.Build.0 = Release|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Release-es|Any CPU.ActiveCfg = Release|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Release-es|Any CPU.Build.0 = Release|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Release-fr|Any CPU.ActiveCfg = Release|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Release-fr|Any CPU.Build.0 = Release|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Release-it|Any CPU.ActiveCfg = Release|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Release-it|Any CPU.Build.0 = Release|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Release-ja|Any CPU.ActiveCfg = Release|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Release-ja|Any CPU.Build.0 = Release|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Release-ko|Any CPU.ActiveCfg = Release|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Release-pl|Any CPU.ActiveCfg = Release|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Release-pl|Any CPU.Build.0 = Release|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Release-pt|Any CPU.ActiveCfg = Release|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Release-pt|Any CPU.Build.0 = Release|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Release-ru|Any CPU.ActiveCfg = Release|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Release-ru|Any CPU.Build.0 = Release|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Release-zh|Any CPU.ActiveCfg = Release|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Release-zh|Any CPU.Build.0 = Release|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Release-zht|Any CPU.ActiveCfg = Release|Any CPU
+		{C413B60A-3426-4941-8028-4E8E8933FEDF}.Release-zht|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD1869D7-3479-4A96-98E9-2A8FB8FE6CD5}
+	EndGlobalSection
+EndGlobal
