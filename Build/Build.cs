@@ -3,8 +3,8 @@ using Nuke.Common.Execution;
 using ricaun.Nuke;
 using ricaun.Nuke.Components;
 
-class Build : NukeBuild, IPublishPack, ITestLocal
+class Build : NukeBuild, IPublish, ITestLocal
 {
     string ITestLocal.TestLocalProjectName => "RevitTest.Language";
-    public static int Main() => Execute<Build>(x => x.From<IPublishPack>().Build);
+    public static int Main() => Execute<Build>(x => x.From<IPublish>().Build);
 }

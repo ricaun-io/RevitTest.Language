@@ -8,6 +8,11 @@
     <Configurations>Debug;Release-en;Release-pt;Release-es;Release-ru;Release-fr;Release-it;Release-ja;Release-eng;Release-de;Release-ko;Release-pl;Release-zh;Release-zht;Release-cs</Configurations>
   </PropertyGroup>
 
+  <!-- Release -->
+  <PropertyGroup Condition="!$(Configuration.Contains('Debug'))">
+    <OutputPath>bin\Release\$(Configuration)</OutputPath>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="NUnit" Version="3.13.3" />
     <PackageReference Include="ricaun.RevitTest.TestAdapter" Version="*-*" />

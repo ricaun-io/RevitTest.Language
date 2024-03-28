@@ -49,14 +49,6 @@
           "type": "boolean",
           "description": "Disables displaying the NUKE logo"
         },
-        "NugetApiKey": {
-          "type": "string",
-          "default": "Secrets must be entered via 'nuke :secrets [profile]'"
-        },
-        "NugetApiUrl": {
-          "type": "string",
-          "default": "Secrets must be entered via 'nuke :secrets [profile]'"
-        },
         "Partition": {
           "type": "string",
           "description": "Partition to use on CI"
@@ -100,10 +92,8 @@
               "Clean",
               "Compile",
               "GitRelease",
-              "Pack",
               "Release",
-              "Sign",
-              "TestLocal"
+              "Sign"
             ]
           }
         },
@@ -121,21 +111,10 @@
               "Clean",
               "Compile",
               "GitRelease",
-              "Pack",
               "Release",
-              "Sign",
-              "TestLocal"
+              "Sign"
             ]
           }
-        },
-        "TestLocalBuildStopWhenFailed": {
-          "type": "boolean"
-        },
-        "TestLocalResults": {
-          "type": "boolean"
-        },
-        "UnlistNuget": {
-          "type": "boolean"
         },
         "Verbosity": {
           "type": "string",
