@@ -1,6 +1,6 @@
 # RevitTest.Language
 
-[![Revit 2021](https://img.shields.io/badge/Revit-2021+-blue.svg)](../..)
+[![Revit 2024](https://img.shields.io/badge/Revit-2024+-blue.svg)](../..)
 [![Visual Studio 2022](https://img.shields.io/badge/Visual%20Studio-2022-blue)](../..)
 [![Nuke](https://img.shields.io/badge/Nuke-Build-blue)](https://nuke.build/)
 [![License MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -31,7 +31,7 @@ The sample project to test languages using the [ricaun.RevitTest](https://ricaun
 
 ## License
 
-This project is [licensed](LICENSE) under the [MIT Licence](https://en.wikipedia.org/wiki/MIT_License).
+This project is [licensed](LICENSE) under the [MIT License](https://en.wikipedia.org/wiki/MIT_License).
 
 ---
 
